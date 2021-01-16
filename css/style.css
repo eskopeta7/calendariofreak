@@ -1,0 +1,29 @@
+ li {
+     color: red  ;
+     font-weight: bold;
+}
+
+Ul li a:hover{
+    text-decoration:overline;
+}
+
+ul.nav-items {
+    
+    height: 0;
+    overflow: hidden;
+    
+}
+
+#galería {
+  display: none;
+}
+
+#galería:target {
+  display: block;
+}
+
+#navigation:target .nav-items {
+    
+    height: 15em;
+
+}
