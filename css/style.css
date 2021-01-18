@@ -8,7 +8,7 @@ Ul li a:hover{
 }
 
 ul.nav-items {
-    
+
     height: 0;
     overflow: hidden;
     
@@ -23,7 +23,5 @@ ul.nav-items {
 }
 
 #navigation:target .nav-items {
-    
     height: 15em;
-
 }
