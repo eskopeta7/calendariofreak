@@ -4,14 +4,14 @@
 }
 
 Ul li a:hover{
-    text-decoration:overline;
+    
 }
 
 ul.nav-items {
 
     height: 0;
     overflow: hidden;
-    
+
 }
 
 #galería {
@@ -24,4 +24,16 @@ ul.nav-items {
 
 #navigation:target .nav-items {
     height: 15em;
+}
+/*Al hacer clic sobre el enlace que abre el menú éste desaparece*/
+.close {
+   display:none;
+}
+#navigation:target .open {
+      display: none;
+}
+
+/* Al hacer clic sobre el enlace que abre el menú aparece el enlace .close que previamente estaba oculto*/
+#navigation:target .close {
+        display: block;
 }
