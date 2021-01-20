@@ -4,14 +4,14 @@
 }
 
 Ul li a:hover{
-    
+
 }
 
 ul.nav-items {
-
+    clear: both;
     height: 0;
     overflow: hidden;
-
+    transition: height 0.4s ease-in-out 0s, background-color 2s ease 0s;
 }
 
 #galería {
@@ -23,7 +23,9 @@ ul.nav-items {
 }
 
 #navigation:target .nav-items {
-    height: 15em;
+    background: #f0f0f0 none repeat scroll 0 0;
+    height: 10em;
+    transition: height 0.4s ease-in-out 0s, background-color 0.9s ease 0s;
 }
 /*Al hacer clic sobre el enlace que abre el menú éste desaparece*/
 .close {
